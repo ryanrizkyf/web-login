@@ -6,7 +6,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laptop-code"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Admin</div>
+                <div class="sidebar-brand-text mx-3">Pemrograman Web <br> Admin</div>
             </a>
 
             <!-- Divider -->
@@ -48,14 +48,14 @@
                         <?php else : ?>
                         <li class="nav-item">
                         <?php endif; ?>
-                        <a class="nav-link" href="<?= base_url($sm['url']); ?>">
+                        <a class="nav-link pb-0" href="<?= base_url($sm['url']); ?>">
                             <i class="<?= $sm['icon']; ?>"></i>
                             <span><?= $sm['title']; ?></span></a>
                         </li>
                     <?php endforeach; ?>
 
                     <!-- Divider -->
-                    <hr class="sidebar-divider">
+                    <hr class="sidebar-divider mt-3">
 
                 <?php endforeach; ?>
 
