@@ -122,7 +122,7 @@ class Auth extends CI_Controller
         $config = [
             'protocol'  => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
-            'smtp_user' => 'pemrogramanbelajar@gmail.com',
+            'smtp_user' => 'xxx@gmail.com', //gunakan email google selain email pribadi
             'smtp_pass' => '1234567890', // gunakan password sesuai email yang digunakan pada line 125
             'smtp_port' => 465,
             'mailtype'  => 'html',
