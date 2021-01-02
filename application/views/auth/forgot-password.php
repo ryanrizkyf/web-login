@@ -26,7 +26,7 @@
                                 </form>
                                 <hr>
                                 <div class="text-center">
-                                    <a class="small" href="<?= base_url('auth/registration'); ?>">Kembali ke halaman Login!</a>
+                                    <a class="small" href="<?= base_url('auth'); ?>">Kembali ke halaman Login!</a>
                                 </div>
                             </div>
                         </div>
